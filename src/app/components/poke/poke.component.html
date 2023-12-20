@@ -1,0 +1,11 @@
+<div *ngIf="datos!=null">
+  <table >
+    <tr>
+      <td>Nombre</td><td>Url</td>
+    </tr>
+    <tr *ngFor="let i of poke">
+       <td>{{i.name}}</td>
+       <td>{{i.url}}</td>
+    </tr>
+  </table>
+</div>
